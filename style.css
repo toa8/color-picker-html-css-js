@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #eee;
+  font-family: "Ubuntu", sans-serif;
+  display: grid;
+  place-items: center;
+  height: 100dvh;
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+  height: 70dvh;
+}
+
+input {
+  width: 200px;
+}
+
+.value {
+  text-shadow: 0 0 4px #333;
+  color: #f3f3f3;
+}
+
+.resultContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  height: 30vh;
+}
+
+.result {
+  font-size: 24px;
+  text-shadow: 0 0 4px #333;
+  color: #f3f3f3;
+}
+
+.copyBtn {
+  padding: 0.5rem;
+  background-color: #eee;
+  box-sizing: 10px 10px 20px #f3f3f3;
+  text-shadow: 0 0 4px #333;
+  outline: none;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  color: #fff;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 2px;
+}
